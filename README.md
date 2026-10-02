@@ -2,7 +2,7 @@
 
 A calm, editorial yoga & wellness studio theme for [Astro](https://astro.build). One rich home page — classes, timetable, coaches, memberships, retreats and more — plus a real blog, a contact page and a custom 404. Static output, almost no JavaScript, and every piece of content lives in small data files you can edit without touching the components.
 
-![Yoga Fitness home page](docs/home.webp)
+![Yoga Fitness home page](docs/featured.jpg)
 
 ## Demo
 
@@ -90,7 +90,7 @@ npm run check
 │   ├── favicon.svg         Flower monogram favicon
 │   ├── og-default.jpg      Default social sharing image (1200×630)
 │   └── images/             All photography (WebP)
-├── docs/                   README screenshots + theme-images/ for the Astro catalog (not used by the site)
+├── docs/featured.jpg       Featured image for README and the Astro catalog (not used by the site)
 └── src/
     ├── assets/fonts/       Inter Tight + Instrument Serif (WOFF2, OFL)
     ├── components/         Section and UI components
@@ -260,7 +260,7 @@ The theme ships its own SVG icon sprite (`src/components/icons/IconSprite.astro`
 
 ## Submitting to the Astro Themes catalog
 
-The [Astro Themes catalog](https://astro.build/themes/) is managed through the [Astro Developer Portal](https://portal.astro.build/themes/submit): sign in with GitHub and submit the public repository, demo URL and screenshots there. Ready-made listing images taken from the live demo are in `docs/theme-images/` (nine 1600×900 JPGs, 16:9, about 1.1 MB combined — within the catalog limit of 5 MB, 16:9, 1280px+).
+The [Astro Themes catalog](https://astro.build/themes/) is managed through the [Astro Developer Portal](https://portal.astro.build/themes/submit): sign in with GitHub and submit the public repository, demo URL and screenshots there. The featured image `docs/featured.jpg` is taken from the live demo (1600×900, 16:9, under 200 KB — within the catalog limits of 5 MB, 16:9, 1280px+).
 
 ## License
 
