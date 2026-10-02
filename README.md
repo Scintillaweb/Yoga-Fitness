@@ -6,7 +6,7 @@ A calm, editorial yoga & wellness studio theme for [Astro](https://astro.build).
 
 ## Demo
 
-**https://your-demo-url.example.com** — *placeholder: replace with your deployed demo URL.*
+**[yoga-fitness-seven.vercel.app](https://yoga-fitness-seven.vercel.app/)**
 
 ## Features
 
@@ -90,7 +90,7 @@ npm run check
 │   ├── favicon.svg         Flower monogram favicon
 │   ├── og-default.jpg      Default social sharing image (1200×630)
 │   └── images/             All photography (WebP)
-├── docs/                   README screenshots (not used by the site)
+├── docs/                   README screenshots + theme-images/ for the Astro catalog (not used by the site)
 └── src/
     ├── assets/fonts/       Inter Tight + Instrument Serif (WOFF2, OFL)
     ├── components/         Section and UI components
@@ -198,7 +198,7 @@ The newsletter form works the same way with `newsletterAction` (it sends one fie
 
 ## Deployment
 
-Set `SITE_URL` to your production URL (used for canonical links, Open Graph, sitemap and RSS) on whichever host you use. See `.env.example`.
+Set `SITE_URL` to your production URL (used for canonical links, Open Graph, sitemap and RSS) on whichever host you use, or replace the demo URL fallback in `astro.config.mjs`. See `.env.example`.
 
 - **Vercel** — import the repository; Vercel detects Astro. Build command `npm run build`, output directory `dist`. Add `SITE_URL` under *Environment Variables*.
 - **Netlify** — build command `npm run build`, publish directory `dist`. Add `SITE_URL` in *Site configuration › Environment variables*.
@@ -260,7 +260,7 @@ The theme ships its own SVG icon sprite (`src/components/icons/IconSprite.astro`
 
 ## Submitting to the Astro Themes catalog
 
-The [Astro Themes catalog](https://astro.build/themes/) is managed through the [Astro Developer Portal](https://portal.astro.build/themes/submit): sign in with GitHub and submit the public repository, demo URL and screenshots there. The screenshots in `docs/` (1600×900) can be used as a starting point.
+The [Astro Themes catalog](https://astro.build/themes/) is managed through the [Astro Developer Portal](https://portal.astro.build/themes/submit): sign in with GitHub and submit the public repository, demo URL and screenshots there. Ready-made listing images taken from the live demo are in `docs/theme-images/` (nine 1600×900 JPGs, 16:9, about 1.1 MB combined — within the catalog limit of 5 MB, 16:9, 1280px+).
 
 ## License
 
